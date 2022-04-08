@@ -17,6 +17,12 @@ class Parent:
 
         for enfant in enfants:
             self.add_enfant(enfant)
+
+    def add_repere_to_enfant(self, repere, enfant):
+        enfant.add_repere(repere)
+    
+    def add_reperes_to_enfant(self,repere, enfant):
+        enfant.add_reperes(repere)
     
     def remove_enfant(self, enfant):
 
